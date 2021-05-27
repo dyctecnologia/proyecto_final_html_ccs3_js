@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="js/funciones.js"></script>
+    <title>trainen</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="logo">
+                <img src="recursos/logo para trainen.png" alt="logo">
+            </div>
+            <div class="categorias">
+                <a href="index.html">INICIO</a>
+                <a href="poleras.html">POLERAS</a>
+                <a href="gorras.html">GORRAS</a>
+                <a href="accesorios.html">ACCESORIOS</a>
+                <a href="contacto.html">CONTACTO</a>
+
+            </div>
+        </div>
+    </header>
+    <section id="formulario">
+        <form name="miformulario" id="miformulario">
+            <h2>CONTACTO</h2>
+            <ul class="campos"><input type="text" name="minombre" id="minombre" placeholder="Escriba su nombre">
+                <p id="msgNombre" class="alerta"></p>
+            </ul>
+            <ul class="campos"><input type="email" name="miemail" id="miemail" placeholder="Escriba su correo">
+                <p id="msgCorreo" class="alerta"></p>
+            </ul>
+            <ul class="campos">
+                <input type="tel" name="mitelefono" id="mitelefono" placeholder="Escriba su telefono celular">
+                <p id="msgNumero" class="alerta"></p>
+            </ul>
+            <button onclick="ValidarInformacion()" style="background-color: rgb(16, 198, 204); color: #ffffff; " type="button">Enviar tus datos</button>
+        </form>
+    </section>
+    <footer id="pie">
+        <p id="copyright">
+            Todos los derechos reservados &copy; TRAINEN 2021
+        </p>
+    </footer>
+</body>
+
+</html>

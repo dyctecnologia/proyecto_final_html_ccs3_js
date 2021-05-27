@@ -1,0 +1,177 @@
+    /**index**/
+    
+    @media screen and (max-width: 980px) {
+        * {
+            justify-content: center;
+        }
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .banner .logo {
+            width: 100%;
+            justify-content: center;
+            padding: 10px;
+        }
+        .banner .categorias {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0%;
+        }
+        .multimedia {
+            justify-content: center;
+        }
+        #pie #copyright {
+            width: 100%;
+            justify-content: center;
+            font-size: 1rem;
+            padding: 10px;
+        }
+    }
+    /**poleras**/
+    
+    @media screen and (max-width: 980px) {
+        * {
+            justify-content: center;
+        }
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .banner .logo {
+            width: 100%;
+            justify-content: center;
+            padding: 10px;
+        }
+        .banner .categorias {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0%;
+        }
+        #contenido_principal #nuestros_productos li {
+            justify-content: center;
+        }
+        #pie #copyright {
+            width: 100%;
+            justify-content: center;
+            font-size: 1rem;
+            padding: 10px;
+        }
+    }
+    /**gorras**/
+    
+    @media screen and (max-width: 980px) {
+        * {
+            justify-content: center;
+        }
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .banner .logo {
+            width: 100%;
+            justify-content: center;
+            padding: 10px;
+        }
+        .banner .categorias {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0%;
+        }
+        #contenido_principal #nuestros_productos li {
+            justify-content: center;
+        }
+        #pie #copyright {
+            width: 100%;
+            justify-content: center;
+            font-size: 1rem;
+            padding: 10px;
+        }
+    }
+    /**accesorios**/
+    
+    @media screen and (max-width: 980px) {
+        * {
+            justify-content: center;
+        }
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .banner .logo {
+            width: 100%;
+            justify-content: center;
+            padding: 10px;
+        }
+        .banner .categorias {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0%;
+        }
+        #contenido_principal #nuestros_productos li {
+            justify-content: center;
+        }
+        #pie #copyright {
+            width: 100%;
+            justify-content: center;
+            font-size: 1rem;
+            padding: 10px;
+        }
+    }
+    /**contacto**/
+    
+    @media screen and (max-width: 980px) {
+        * {
+            justify-content: center;
+        }
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .banner .logo {
+            width: 100%;
+            justify-content: center;
+            padding: 10px;
+        }
+        .banner .categorias {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+        #formulario #miformulario {
+            width: 70%;
+            align-items: center;
+            justify-content: center;
+        }
+        #pie #copyright {
+            width: 100%;
+            justify-content: center;
+            font-size: 1rem;
+            padding: 10px;
+        }
+    }
